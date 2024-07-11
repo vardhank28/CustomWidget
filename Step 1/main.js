@@ -1,9 +1,10 @@
 
 (function () {
-  Access-Control-Allow-Origin:*  
+
   const template = document.createElement('template')
   template.innerHTML = `
         <style>
+        <header> Access-Control-Allow-Origin:*  </header>
         </style>
         <div id="root" style="width: 100%; height: 100%;">
         Hello Custom Widget
