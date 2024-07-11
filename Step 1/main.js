@@ -1,4 +1,4 @@
-
+Access-Control-Allow-Origin:*  
 (function () {
   const template = document.createElement('template')
   template.innerHTML = `
