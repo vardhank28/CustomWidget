@@ -1,5 +1,6 @@
-Access-Control-Allow-Origin:*  
+
 (function () {
+  Access-Control-Allow-Origin:*  
   const template = document.createElement('template')
   template.innerHTML = `
         <style>
