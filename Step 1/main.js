@@ -3,7 +3,7 @@
 
   const template = document.createElement('template')
   template.innerHTML = `
-        response.headers.set(Access-Control-Allow-Origin:*)
+        response.headers.set("Access-Control-Allow-Origin:*")
         <style>
 
         </style>
